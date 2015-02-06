@@ -3,6 +3,11 @@ int binsearch(int val, int v[], int n);
 
 
 int main(void) {
+    int a[] = {10, 20, 30, 40, 50};
+    int result;
+    
+    result = binsearch(30, a, 5);
+    printf("seach result index is %d", result);
     return 0;
 }
 
